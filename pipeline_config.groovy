@@ -3,5 +3,5 @@ jte{
 }
 libraries{
     merge = true
-    shared_lib
+    lib
 }
