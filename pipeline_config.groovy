@@ -1,6 +1,7 @@
-fields {
-    required {
-        
-    }
-    optional {}
+jte {
+  pipeline_template = "test-template-ci"
+}
+
+libraries {
+  lib
 }
