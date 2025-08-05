@@ -8,7 +8,8 @@ void call(String a, String b, String c, String d) {
                 // Execute the build script
                 echo "🔧 Building application..."
                 // sh "echo 'Compiling source code...'"
-            } else {
+            } 
+            else {
                 echo 'Build step is disabled, skipping...'
             }
         }
