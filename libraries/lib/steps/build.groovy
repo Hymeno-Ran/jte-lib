@@ -1,5 +1,6 @@
 void call(String a, String b, String c, String d) {
     stage('Build') {
+        echo "${WORKSPACE}"
         pre_build(a, b, c, d)
         // Check if the build step is enabled
         if (env.BUILD_STEP_ENABLED != 'true') {
