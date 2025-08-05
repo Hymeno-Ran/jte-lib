@@ -14,4 +14,11 @@ void call(String a, String b, String c, String d) {
             }
         }
     }
+    stage('Run') {
+        steps {
+            echo "${WORKSPACE}"
+            pre_build(a, b, c, d)
+            echo "🔧 Building application..."
+        }
+    }
 }
