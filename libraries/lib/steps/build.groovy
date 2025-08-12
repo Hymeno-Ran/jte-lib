@@ -1,4 +1,4 @@
-void call(String a, String b, String c, String d) {
+void call() {
     stage('Build') {
         steps {
             echo "${WORKSPACE}"
