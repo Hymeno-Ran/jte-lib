@@ -15,7 +15,7 @@ void call() {
     }
     stage('Run') {
         echo "${WORKSPACE}"
-        pre_build(a, b, c, d)
+        pre_build()
         echo "🔧 Building application..."
     }
 }
