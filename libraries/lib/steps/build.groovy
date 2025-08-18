@@ -1,7 +1,6 @@
 void call() {
     stage('Build') {
         echo "${WORKSPACE}"
-        pre_build()
         // Check if the build step is enabled
         if (env.BUILD_STEP_ENABLED != 'true') {
             // Execute the build script
@@ -15,7 +14,6 @@ void call() {
     }
     stage('Run') {
         echo "${WORKSPACE}"
-        pre_build()
         echo "🔧 Building application..."
     }
 }
