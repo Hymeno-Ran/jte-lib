@@ -12,8 +12,4 @@ void call() {
         }
 
     }
-    stage('Run') {
-        echo "${WORKSPACE}"
-        echo "🔧 Building application..."
-    }
 }
